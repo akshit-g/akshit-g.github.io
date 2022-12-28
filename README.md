@@ -1,3 +1,3 @@
 # akshit-g.github.io
-akshitg.github.io
+https://akshit-g.github.io/
 (Learn HTML and CSS)
