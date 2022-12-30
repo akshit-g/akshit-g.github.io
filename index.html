@@ -2,33 +2,33 @@
 <htmtl>
     <head>
         <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <a href="#" class="logo">Akshit Gandotra</a>
-            <nav>
-                <ul class="menu">
+            <div class="topnav">
+                <a href="#" class="nav-name">Akshit Gandotra</a>
+                <ul class="topnav-right">
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <div class="topnav-right-cv">
+                        <li><a href="#resume">Resume</a></li>
+                    </div>
                 </ul>
-
-                <ul class="menu-resume">
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </nav>
+            </div>           
         </header>
 
         <main>
-            <section id="hero">
-                <div class="hero-home">
-                    <h1>Akshit Gandotra</h1>
-                    <h3>Student Developer</h3>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1 style="font-size: 50px;">Akshit Gandotra</h1>
+                    <h3 style="font-size: 27px;">Student Developer</h3>
                     
-                        <a href="www.github.com/akshit-g">
+                        <a href="https://github.com/akshit-g">
                             <img src="icons8-github.png" alt="GitHub:akshit-g" class="img-icon" >
                         </a>
                     
@@ -41,9 +41,9 @@
                         </a>
 
                 </div>
-            </section>
+            </div>
         
-            <section id="about">
+            <div class="about">
                 <h2 class="heading-page">About Me</h2>
                 <div class="about-left">
                     <img src="Akshit.jpg" alt="Akshit Gandotra" class="about-profile-image">
@@ -54,7 +54,7 @@
                     <h3 class="heading-subpage">Hey! I'm Akshit Gandotra</h3>
                     <p class="text-page">
                         I'm a sophmore year (2nd year) student currently pursuing B.Tech in Computer Science from UPES,
-                        specializing in AI&ML. I love exploring new technologies and collaborating with people to create 
+                        specializing in AI&ML. <br>I love exploring new technologies and collaborating with people to create 
                         something amazing.
                         I have been associated with various student chapters and clubs. Currently I am serving as the
                         Technical Sub-Head for NSS UPES and as a Core Committee member for GDSC UPES.
@@ -76,7 +76,7 @@
                         Figma
                     </p>
                 </div>
-            </section>
+            </div>
         
             <section id="projects">
                 <h2 class="heading-page">My Projects</h2>
@@ -109,19 +109,21 @@
                 </div>
             </section>
         
-            <section id="contact">
-                <h2 class="heading-page">Contact Me</h2>
-                <h3 class="heading-subpage">Akshit Gandotra</h3>
-                <h4 class="contact-headings">University of Petroleum & Energy Studies, Dehradun</h4>
-                <h4 class="contact-headings">Faridabad, Haryana</h4>
-                <h4 class="contact-headings">gandotra.akshit@gmail.com</h4>
-                <h4 class="contact-headings">akshit-g</h4>
-                <h4 class="contact-headings">https://in.linkedin.com/in/akshitgandotra</h4>
+            <section>
+                <div class="contact">
+                    <h2 class="heading-page">Contact Me</h2>
+                    <h3 class="heading-subpage">Akshit Gandotra</h3>
+                    <h4 class="contact-headings">University of Petroleum & Energy Studies, Dehradun</h4>
+                    <h4 class="contact-headings">Faridabad, Haryana</h4>
+                    <h4 class="contact-headings">gandotra.akshit@gmail.com</h4>
+                    <h4 class="contact-headings">akshit-g</h4>
+                    <h4 class="contact-headings">https://in.linkedin.com/in/akshitgandotra</h4>
+                </div>
             </section>
         </main>
 
         <footer>
-            Made with ❤ by Akshit Gandotra
+            Made with <span style="color: #ff0000">❤</span> by Akshit Gandotra
         </footer>
 
     </body>
