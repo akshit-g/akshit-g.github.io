@@ -15,7 +15,7 @@ function loadData(doc) {
   let content = document.createElement("p");
   let tags = document.createElement("small");
   let btn = document.createElement("div");
-  let link = document.createElement("a");
+  // let link = document.createElement("a");
   let repo = document.createElement("a");
 
   project_card.setAttribute("class", "project-description");
@@ -28,11 +28,11 @@ function loadData(doc) {
   tags.innerHTML = "<b>Tech-Stack</b> : " + doc.tags.join(", ");
   repo.textContent = "Repo";
 
-  if (doc.link != "") {
-    link.setAttribute("href", doc.link);
-    link.textContent = "Link";
-    btn.appendChild(link);
-  }
+  // if (doc.link != "") {
+  //   link.setAttribute("href", doc.link);
+  //   link.textContent = "Link";
+  //   btn.appendChild(link);
+  // }
 
   btn.appendChild(repo);
 
