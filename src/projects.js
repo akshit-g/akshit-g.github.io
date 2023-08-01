@@ -1,4 +1,4 @@
-import { projectData } from "./data.js";
+import { projectData } from "./projectdata.js";
 
 const projects = document.querySelector(".project-temp");
 

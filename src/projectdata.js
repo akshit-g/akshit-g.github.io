@@ -1,6 +1,6 @@
 export const projectData = [
   {
-    projectName: "Machine Learning Basics",
+    projectName: "Machine Learning Essentials",
     // projectDate: "Jun 2020",
     projectDescription: "This repository serves as a beginner's guide to machine learning algorithms, providing implementations and examples for various fundamental algorithms.",
     tags: ["Python", "AI/ML"],
