@@ -5,7 +5,7 @@ export const projectData = [
     projectDescription: "This repository serves as a beginner's guide to machine learning algorithms, providing implementations and examples for various fundamental algorithms.",
     tags: ["Python", "AI/ML"],
     // link: "https://project.herokuapp.com/",
-    repo: "https://github.com/akshit-g/ASL_Recognition",
+    repo: "https://github.com/akshit-g/machine-learning-basics",
   },
   {
     projectName: "Personal Website",
