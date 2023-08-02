@@ -1,9 +1,16 @@
 export const certificationData = [
   {
-    certName: "Machine Learning",
-    certDate: "Jun 2020",
+    certName: "Basic Image Classification with Tensorflow",
+    certDate: "November 2022",
     // certDescription: "Certification Description",
-    tags: ["Python", "AI/ML"],
-    cred: "https://github.com/akshit-g/machine-learning-basics",
+    tags: ["Python", "AI/ML", "Tensorflow"],
+    cred: "https://www.coursera.org/account/accomplishments/certificate/3FV7FTUKVSXT",
+  },
+  {
+    certName: "Basic Image Classification with Tensorflow",
+    certDate: "November 2022",
+    // certDescription: "Certification Description",
+    tags: ["Python", "AI/ML", "Tensorflow"],
+    cred: "https://www.coursera.org/account/accomplishments/certificate/3FV7FTUKVSXT",
   },
 ];
